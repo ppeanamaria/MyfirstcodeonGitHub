@@ -95,9 +95,13 @@ def find():
             else:
                 print "This student was found in: ", found_in
 
-find()
+def main():
+    # All major steps of the programm should be called from here
+    find()
 
-
+# The standard python boilerplate
+if __name__ == '__main__':
+    main()
 
 
 
